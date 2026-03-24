@@ -1,0 +1,57 @@
+body.kitchen {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f9;
+  font-size: 18px;
+}
+
+body.kitchen header {
+  background: #191970;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 32px;
+}
+
+body.kitchen .container {
+  padding: 30px;
+}
+
+body.kitchen .box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+body.kitchen h3 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+body.kitchen .order {
+  background: #eee;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+body.kitchen .order.ready {
+  background: #d4edda;
+}
+
+body.kitchen .order button {
+  display: block;
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 6px;
+}
+
+body.kitchen .order button:hover {
+  background-color: #218838;
+}

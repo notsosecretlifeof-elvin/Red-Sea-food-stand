@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Food Stand</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>🍽️ Welcome to the Red Sea Food Stand</header>
+
+<div class="container">
+
+  <div class="box">
+    <h3>📋 Menu</h3>
+    <div id="menu"></div>
+  </div>
+
+  <div class="box">
+    <h3>🛒 Cart</h3>
+    <div id="cartList">Cart empty</div>
+    <p id="total"></p>
+
+    <input id="customerName" placeholder="Enter name"><br><br>
+
+    <input type="number" id="moneyGiven" step="500" placeholder="Money given (UGX)" oninput="calcChange()"><br><br>
+
+    <div id="changeBox"></div>
+
+    <button class="placeOrder" onclick="placeOrder()">Place Order</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
